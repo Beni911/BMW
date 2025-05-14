@@ -1,0 +1,189 @@
+body {
+            scroll-behavior: smooth;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #0d1117;
+            color: #f0f0f0;
+        }
+
+        #models .card-text {
+            color: white;
+        }
+
+        .navbar {
+            background-color: #111;
+        }
+
+        .navbar-brand,
+        .nav-link {
+            color: #fff !important;
+        }
+
+        .hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://www.bmw.hu/content/dam/bmw/common/all-models/3-series/sedan/2022/navigation/bmw-3-series-sedan-lci-modelfinder.png') center/cover no-repeat;
+            height: 100vh;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.8);
+        }
+
+        .hero h1 {
+            font-size: 4rem;
+            font-weight: 700;
+            animation: fadeInDown 1s ease-out;
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+            animation: fadeInUp 1.5s ease-out;
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        #services .container {
+            color: black;
+        }
+
+        .card {
+            background-color: #161b22;
+            border: 1px solid #30363d;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: scale(1.03);
+        }
+
+        .card-title {
+            color: #58a6ff;
+        }
+
+        .section-title {
+            color: #58a6ff;
+            margin-bottom: 1.5rem;
+        }
+
+        footer {
+            background-color: #010409;
+        }
+
+        .offcanvas-end {
+            width: 200px !important;
+        }
+
+        .rounded-circle {
+            border: 2px solid #58a6ff;
+        }
+
+        .navbar-toggler {
+            border: none;
+            background: transparent;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 40px;
+            height: 40px;
+            padding: 0;
+        }
+
+        .navbar-toggler i {
+            transition: transform 0.3s ease;
+        }
+
+        .offcanvas.show+.navbar .navbar-toggler i {
+            transform: rotate(90deg);
+        }
+
+        #contact {
+            position: relative;
+            padding: 100px 0;
+            overflow: hidden;
+        }
+
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #58a6ff;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .form-control,
+        .btn {
+            border-radius: 30px;
+            background-color: #161b22;
+            border: 1px solid #30363d;
+            transition: all 0.3s ease;
+        }
+
+        .form-control:focus,
+        .btn:hover {
+            background-color: #58a6ff;
+            color: #fff;
+            border-color: #58a6ff;
+            box-shadow: 0 0 10px rgba(88, 166, 255, 0.5);
+        }
+
+        .form-control::placeholder {
+            color: #b0b0b0;
+        }
+
+        .btn {
+            font-weight: bold;
+            transition: all 0.3s ease;
+            border: none;
+        }
+
+        .btn:hover {
+            transform: scale(1.05);
+        }
+
+        .form-control:focus,
+        .btn:focus {
+            outline: none;
+            box-shadow: 0 0 5px rgba(88, 166, 255, 0.6);
+        }
+
+        textarea {
+            resize: none;
+        }
+
+        .nav-item:hover .nav-link {
+            color: #58a6ff !important;
+        }
